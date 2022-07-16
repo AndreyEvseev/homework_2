@@ -11,10 +11,7 @@ def sum_nubber(n: float) -> int:
         s //= 10
     return sum
 
-
 print('Введите вещественное число: ', end=' ')
 n = float(input())
 sum = sum_nubber(n)
 print(sum)
-
-
