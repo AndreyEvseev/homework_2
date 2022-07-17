@@ -1,7 +1,7 @@
 # Задание 1. Напишите программу, которая принимает на вход вещественное число и 
 # показывает сумму его цифр.
 
-def sum_nubber(n: float) -> int:
+def sum_number(n: float) -> int:
     s=str(n) 
     s=s.replace('.', '')
     s=int(s)
@@ -11,7 +11,7 @@ def sum_nubber(n: float) -> int:
         s //= 10
     return sum
 
-print('Введите вещественное число: ', end=' ')
-n = float(input())
-sum = sum_nubber(n)
+
+n = float(input('Введите вещественное число: '))
+sum = sum_number(n)
 print(sum)
