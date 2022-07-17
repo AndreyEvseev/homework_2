@@ -1,8 +1,7 @@
 # Задание 5. Реализуйте алгоритм перемешивания списка.
 
-from platform import java_ver
 import random
-from re import L
+
 
 def fill_list(n=10, min=0, max=100) -> list: 
     new_list = [random.randint(min, max)]
