@@ -7,7 +7,6 @@ def set_products(n: int) -> list:
         set.append(set[-1] * i)
     return set
 
-print('Введите натуральное число: ', end=' ')
-n = int(input())
+n = int(input('Введите натуральное число: '))
 set = set_products(n)
 print(set)

@@ -2,7 +2,6 @@
 # Найдите произведение элементов на указанных позициях. 
 # Позиции хранятся в файле file.txt в одной строке одно число.
 
-
 import random
 
 def fill_list(n: int) -> list: 
@@ -36,11 +35,9 @@ def product_elements(user_list: list, k: int) -> int:
    position.close()
    return product
 
-print('Количество элементов: N = ', end=' ')
-n = int(input())
+n = int(input('Количество элементов: N = '))
 new_list = fill_list(n)
-print('Количество множителей: k = ', end=' ')
-k = int(input())
+k = int(input('Количество множителей: k = '))
 writing_file(k, n)
 print(f'Заданный список: {new_list}')
 print_position()
